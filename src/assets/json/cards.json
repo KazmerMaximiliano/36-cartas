@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "img": "carta_1.png",
+    "text": "Suponiendo que pudieras elegir a cualquier persona en el mundo, ¿a quién invitarías a cenar?"
+  },
+  {
+    "id": 1,
+    "img": "carta_2.png",
+    "text": "¿Te gustaría ser famoso? ¿De qué forma?"
+  },
+  {
+    "id": 2,
+    "img": "carta_3.png",
+    "text": "Antes de hacer una llamada telefónica, ¿ensayas lo que vas a decir? ¿Por qué?"
+  },
+  {
+    "id": 3,
+    "img": "carta_4.png",
+    "text": "Para ti, ¿cómo sería un día perfecto?"
+  },
+  {
+    "id": 4,
+    "img": "carta_5.png",
+    "text": "¿Cuándo fue la última vez que cantaste a solas? ¿Y para otra persona?"
+  },
+  {
+    "id": 5,
+    "img": "carta_6.png",
+    "text": "Si pudieras vivir hasta los 90 años y tener el cuerpo o la mente de alguien de 30, durante los últimos 60 años de tu vida, ¿Cuál de las dos opciones elegirías?"
+  },
+  {
+    "id": 6,
+    "img": "carta_7.png",
+    "text": "¿Tienes una corazonada sobre cómo vas a morir?"
+  },
+  {
+    "id": 7,
+    "img": "carta_8.png",
+    "text": "Di tres cosas que creas tener en común con tu compañero."
+  },
+  {
+    "id": 8,
+    "img": "carta_9.png",
+    "text": "¿De que te sientes más agradecido en la vida?"
+  },
+  {
+    "id": 9,
+    "img": "carta_10.png",
+    "text": "Si pudieras cambiar algo en cómo te educaron, ¿qué sería?"
+  },
+  {
+    "id": 10,
+    "img": "carta_11.png",
+    "text": "Tómate cuatro minutos para contar a tu compañero la historia de tu vida con todo el detalle posible."
+  },
+  {
+    "id": 11,
+    "img": "carta_12.png",
+    "text": "Si mañana te pudieras levantar disfrutando de una habilidad o cualidad nueva, ¿cuál sería?"
+  },
+  {
+    "id": 12,
+    "img": "carta_13.png",
+    "text": "Si una bola de cristal te pudiera decir la verdad sobre ti mismo, tu vida, el futuro, o cualquier otra cosa, ¿qué le preguntarías?"
+  },
+  {
+    "id": 13,
+    "img": "carta_14.png",
+    "text": "¿Hay algo que hayas deseado hacer desde hace mucho tiempo? ¿Por qué no lo has hecho todavía?"
+  },
+  {
+    "id": 14,
+    "img": "carta_15.png",
+    "text": "¿Cuál es el mayor logro que has conseguido en tu vida?"
+  },
+  {
+    "id": 15,
+    "img": "carta_16.png",
+    "text": "¿Qué es lo que más valoras en un amigo?"
+  },
+  {
+    "id": 16,
+    "img": "carta_17.png",
+    "text": "¿Cuál es tu recuerdo más valioso?"
+  },
+  {
+    "id": 17,
+    "img": "carta_18.png",
+    "text": "¿Cuál es tu recuerdo más doloroso?"
+  },
+  {
+    "id": 18,
+    "img": "carta_19.png",
+    "text": "Si supieras que en un año vas a morir de manera repentina, ¿cambiarías algo en tu manera de vivir? ¿Por qué?"
+  },
+  {
+    "id": 19,
+    "img": "carta_20.png",
+    "text": "¿Qué significa la amistad para ti?"
+  },
+  {
+    "id": 20,
+    "img": "carta_21.png",
+    "text": "¿Qué importancia tienen el amor y el afecto en tu vida?"
+  },
+  {
+    "id": 21,
+    "img": "carta_22.png",
+    "text": "Compartid de forma alterna cinco características que consideréis positivas de vuestro compañero."
+  },
+  {
+    "id": 22,
+    "img": "carta_23.png",
+    "text": "¿Tu familia es cercana y cariñosa? ¿Crees que tu infancia fue más feliz que la de los demás?"
+  },
+  {
+    "id": 23,
+    "img": "carta_24.png",
+    "text": "¿Cómo te sientes respecto a tu relación con tu madre?"
+  },
+  {
+    "id": 24,
+    "img": "carta_25.png",
+    "text": "Di tres frases usando el pronombre “nosotros”. Por ejemplo, “nosotros estamos en esta habitación sintiendo…”."
+  },
+  {
+    "id": 25,
+    "img": "carta_26.png",
+    "text": "Completa esta frase: “Ojalá tuviera alguien con quien compartir…”."
+  },
+  {
+    "id": 26,
+    "img": "carta_27.png",
+    "text": "Si llegaran a ser amigos íntimos, di que sería importante que el otro supiera."
+  },
+  {
+    "id": 27,
+    "img": "carta_28.png",
+    "text": "Dile a la otra persona qué es lo que más te ha gustado de ella. Sé muy honesto y dile cosas que no dirías a alguien a quien acabas de conocer."
+  },
+  {
+    "id": 28,
+    "img": "carta_29.png",
+    "text": "Comparte con tu compañero un momento embarazoso de tu vida."
+  },
+  {
+    "id": 29,
+    "img": "carta_30.png",
+    "text": "¿Cuándo fue la última vez que lloraste delante de alguien? ¿Y a solas?"
+  },
+  {
+    "id": 30,
+    "img": "carta_31.png",
+    "text": "Cuéntale a tu compañero algo que ya te guste de él."
+  },
+  {
+    "id": 31,
+    "img": "carta_32.png",
+    "text": "¿Hay algo que te parezca demasiado serio como para hacer broma al respecto?"
+  },
+  {
+    "id": 32,
+    "img": "carta_33.png",
+    "text": "Si fueras a morir esta noche sin posibilidad de hablar con nadie, ¿Que lamentarías no haber dicho a alguien? ¿Por qué no se lo has dicho hasta ahora?"
+  },
+  {
+    "id": 33,
+    "img": "carta_34.png",
+    "text": "Tu casa se incendia con todas tus posesiones dentro. Después de salvar a tus seres queridos y a tus mascotas, tienes tiempo para hacer una última incursión y salvar un solo objeto. ¿Cuál escogerías? ¿Por qué?"
+  },
+  {
+    "id": 34,
+    "img": "carta_35.png",
+    "text": "De todas las personas que forman tu familia, ¿qué muerte te parecería más dolorosa? ¿Por qué?"
+  },
+  {
+    "id": 35,
+    "img": "carta_36.png",
+    "text": "Comparte un problema personal y pídele a tu compañero que te cuente cómo habría actuado él o ella para solucionarlo. Pregúntale también cómo cree que te sientes respecto al problema que has contado."
+  }
+]

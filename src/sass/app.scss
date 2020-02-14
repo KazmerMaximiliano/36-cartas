@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("../assets/fonts/Nunito-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "Nunito-Bold";
+  background-color: #ffe9db;
+  .content {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  .card-stack {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .card-img {
+      height: inherit;
+      max-height: 400px;
+      position: absolute;
+      -webkit-filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12));
+      filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.12));
+    }
+    .card-game {
+      height: inherit;
+      max-height: 400px;
+      position: absolute;
+      transition: ease 0.15s;
+    }
+    @media (max-width: 600px) {
+      .card-img {
+        max-height: 300px;
+      }
+      .card-game {
+        max-height: 300px;
+      }
+    }
+  }
+}
+
+.card-swing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chronometer-container {
+  width: inherit;
+  max-width: 200px;
+  position: fixed;
+  z-index: 9;
+  text-align: center;
+  transition: ease 0.5s;
+}
+
+.btn-container {
+  width: inherit;
+  max-width: 235px;
+  margin: auto;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin: 16px auto;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:active {
+  margin-top: 20px;
+  box-shadow: none;
+}
+
+.btn-blue {
+  background-color: #4bbcf4;
+  box-shadow: 0 4px 0 #3a92be;
+}
+
+.btn-green {
+  background-color: #61c0bf;
+  box-shadow: 0 4px 0 #55aaa9;
+}
+
+.btn-pink {
+  background-color: #ffb6b9;
+  box-shadow: 0 4px 0 #fc8a8e;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: #ffe9db;
+}
+
+.game-nav {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  .nav-content {
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #fc8a8e;
+      background-color: transparent;
+      height: 40px;
+      width: 40px;
+      font-size: 24px;
+      border-radius: 40px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: ease 0.5s;
+    }
+    .nav-btn:active {
+      background-color: white;
+    }
+  }
+  @media (max-width: 600px) {
+    .nav-content {
+      width: 100%;
+    }
+  }
+}
+
+.heart {
+  position: relative;
+  -webkit-animation: rotateH 3s infinite 0.1s;
+  animation: rotateH 3s infinite 0.75s;
+}
+.heart,
+.heart:before,
+.heart:after {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #fc8a8e;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+.heart:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.heart:after {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@keyframes rotateH {
+  100% {
+    transform: rotate(405deg);
+  }
+}

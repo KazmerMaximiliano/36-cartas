@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="app">
+        <div class="loader" v-if="$store.state.load">
+            <div class="heart"></div>
+        </div>
+        <div class="content">
+            <Home v-if="$store.state.path == '/'"></Home>
+            <Game v-if="$store.state.path == 'game'"></Game>
+            <Instructions v-if="$store.state.path == 'instructions'"></Instructions>
+        </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from "./views/Home";
+import Game from "./views/Game";
+import Instructions from "./views/Instructions";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    components: {
+        Home,
+        Game,
+        Instructions
+    }
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
